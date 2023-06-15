@@ -1,4 +1,15 @@
-require ( './helpers.js' );
+let {
+  cats,
+  destructivelyAppendCat,
+  destructivelyPrependCat,
+  destructivelyRemoveLastCat,
+  destructivelyRemoveFirstCat,
+  appendCat,
+  prependCat,
+  removeLastCat,
+  removeFirstCat
+} = require('../index.js');
+
 
 describe('index.js', function () {
   describe('cats', function () {
